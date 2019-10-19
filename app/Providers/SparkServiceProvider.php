@@ -49,6 +49,8 @@ class SparkServiceProvider extends ServiceProvider
      */
     public function booted()
     {
+        Spark::useTwoFactorAuth();
+
         Spark::noCardUpFront()->trialDays(10);
 
         Spark::freePlan()
