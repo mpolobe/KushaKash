@@ -32,9 +32,8 @@ class SparkServiceProvider extends ServiceProvider
      *
      * @var array
      */
-    protected $developers = [
-        //
-    ];
+    protected $developers = ["bcm32@njit.edu"]
+;
 
     /**
      * Indicates if the application will expose an API.
